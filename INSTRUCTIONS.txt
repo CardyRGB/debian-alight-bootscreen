@@ -2,7 +2,7 @@
 
 FOR FISH:
 
-1. Go to the extracted folder (usually ~/Downloads/debian-alight-bootscreen-git)
+1. Go to the extracted folder (usually ~/Downloads/debian-alight-bootscreen)
 2. Run "fish install.fish"
 
 FOR BASH:
