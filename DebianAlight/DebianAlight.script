@@ -1,0 +1,16 @@
+for (i = 1; i <= 195; i++) {
+    images[i] = Image("progress-" + i + ".png");
+}
+
+sprite = Sprite();
+progress = 1;
+
+fun refresh_callback () {
+    sprite.SetImage(images[Math.Int(progress)]);
+    sprite.SetX(Window.GetWidth() / 2 - images[1].GetWidth() / 2);
+    sprite.SetY(Window.GetHeight() / 2 - images[1].GetHeight() / 2);
+    
+    progress = (progress % 195) + 1;
+}
+
+Plymouth.SetRefreshFunction(refresh_callback);

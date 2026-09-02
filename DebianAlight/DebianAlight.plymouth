@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=DebianAlight
+Description=Boot screen made in Alight Motion
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/DebianAlight
+ScriptFile=/usr/share/plymouth/themes/DebianAlight/DebianAlight.script
